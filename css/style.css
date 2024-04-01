@@ -1,0 +1,31 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgb(23 162 184);
+}
+.group h1 {
+    color: rgb(23, 162, 184) ;
+}
+
+.group input::placeholder {
+    color: gray;
+}
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.form-control:focus{
+    border-color: #80bdff !important;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+input, textarea {
+    color: #fff !important;
+}
